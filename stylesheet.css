@@ -1,0 +1,166 @@
+
+
+body {
+	background-color: #f1f1f1;
+	font-family: arial,sans-serif;
+}
+
+header, section, aside, footer {
+	display: block;
+	background-color: white;
+	/*border: 1px solid black;*/
+}
+
+/*top navigation bar*/
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
+	padding: 0 20px 0 30px;
+}
+
+.primary-nav, .primary-nav ul {
+	padding: 0;
+	margin: 0;	
+}
+
+.primary-nav li {
+	display: inline-block;   
+}
+
+.primary-nav img {
+	height: 50px;
+	vertical-align: middle;
+}
+
+.searchForm {
+	margin: 0 50px;
+}
+input {
+	width: 500px;
+}
+
+button[type=submit]{
+	width: 55px;
+	color: #737373;
+}
+.fa-bars{
+	background-color: white;
+	border: none;
+}
+
+.fa-upload{
+	color: #737373;
+}
+.signIn{
+	background-color: #0059b3;
+	color: white;
+	height: 24px;
+	font-size: 9px;
+	font-weight: bold;
+	border: none;
+	border-radius: 2px;
+	margin-left: 20px;
+}
+
+/*embed video section*/
+section {
+    float: left;
+    width: 560px;
+    margin: 45px 2px;
+    background-color: #f1f1f1;
+}
+
+.videoTitle,
+.description,
+.comments {
+	background-color: white;
+	margin: 10px 0;
+	padding: 3px;
+	border-radius: 1px;
+}
+
+p,
+.comments li {
+	font-size: 12px;	
+	list-style: none;
+}
+
+/*aside section*/
+aside {
+	float: right;
+	width: 35%;
+    margin: 45px 2px;
+    
+}
+
+aside ul {
+	list-style: none;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+aside li {
+	padding: 12px 12px;
+	clear: both;
+}
+aside img {
+	
+	float: left;
+	width: 40%;
+}
+aside p {	
+	float: right;
+	width: 58%;
+}
+
+/*footer section*/
+footer {
+	clear: both;
+	width: 100%;
+	margin-top: 10px;	
+	padding-bottom: 10px;
+	font-size: 10px;
+}
+
+footer li {
+	display: inline-block;
+}
+
+.footerTop li{
+	padding: 5px;
+}
+.footerTop button {
+	height: 24px;
+	font-size: 10px;
+	background-color: #f2f2f2;
+	color: #737373;
+	border-color: #737373;
+	border-style: solid;
+	border-radius: 1px;
+	border-width: 0.2px;
+}
+.footerTop button:hover{
+	background-color: #e6e6e6;
+}
+footer img {
+	height: 50px;
+	vertical-align: middle;
+}
+
+.footerBottom li {
+    padding:0 7px;
+}
+
+.footerBottom a {
+	text-decoration: none;
+	color: #737373;
+}
+.footerBottom a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+.secondFootList a{
+    font-weight: bold;
+}
